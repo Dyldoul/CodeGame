@@ -16,7 +16,7 @@
 		
 		
 		<form>
-			<input type="button" value="Retour" onclick="history.go(-1)">
+			<input type="button" value="Retour a l'acceuil" onclick=window.location.href="/CodeGame/">
 		</form>
 	
 	</body>
