@@ -5,7 +5,6 @@
   <!-- ===============Servlets=============== -->
   
   <!-- Acceuil -->
-  
   <servlet>
   	<servlet-name>Acceuil</servlet-name>
   	<servlet-class>servlets.Acceuil</servlet-class>
@@ -16,7 +15,16 @@
   	<url-pattern>/</url-pattern>
   </servlet-mapping>
   
+  <!-- Options -->
+  <servlet>
+  	<servlet-name>Parametres</servlet-name>
+  	<servlet-class>servlets.Parametres</servlet-class>
+  </servlet>
   
+  <servlet-mapping>
+  	<servlet-name>Parametres</servlet-name>
+  	<url-pattern>/options</url-pattern>
+  </servlet-mapping>
   
   
   <!-- ===============Taglibs=============== -->
