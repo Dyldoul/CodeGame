@@ -26,6 +26,7 @@ public class Parametres extends HttpServlet {
 		Options options = new Options();
 		request.setAttribute("options", options);
 		
+		
 		this.getServletContext().getRequestDispatcher("/WEB-INF/parametres.jsp").forward(request, response);
 	}
 

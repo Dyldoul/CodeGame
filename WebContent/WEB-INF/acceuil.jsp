@@ -15,7 +15,7 @@
 	
 	<ul>
 		<li>Jouer</li>
-		<li>Options</li>
+		<li><a href="/CodeGame/options">Options</a></li>
 	</ul>
 	
 	</body>
