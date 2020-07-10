@@ -26,6 +26,17 @@
   	<url-pattern>/options</url-pattern>
   </servlet-mapping>
   
+  <!-- Mode de Jeu -->
+  <servlet>
+  	<servlet-name>ModesDeJeu</servlet-name>
+  	<servlet-class>servlets.ModesDeJeu</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>ModesDeJeu</servlet-name>
+  	<url-pattern>/modesdejeu</url-pattern>
+  </servlet-mapping>
+  
   
   <!-- ===============Taglibs=============== -->
   
