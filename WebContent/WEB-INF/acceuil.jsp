@@ -13,6 +13,11 @@
 	
 	<h1>Bienvenue dans le jeu du code secret</h1>
 	
+	<ul>
+		<li>Jouer</li>
+		<li>Options</li>
+	</ul>
+	
 	</body>
 	
 </html>
