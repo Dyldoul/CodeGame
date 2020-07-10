@@ -15,7 +15,9 @@
 		<p><c:out value="Le nombre d'éssais est fixé à : ${ options.nombreEssais }"/></p>
 		
 		
-		
+		<form>
+			<input type="button" value="Retour" onclick="history.go(-1)">
+		</form>
 	
 	</body>
 

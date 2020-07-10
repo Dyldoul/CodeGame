@@ -16,6 +16,11 @@
 		<li>Compétition (Le premier a trouver le code secret de l'autre a gagner)</li>
 	</ul>
 	
+	<!-- Test d'un bouton de retour en arriere -->
+	<form>
+		<input type="button" value="Retour" onclick="history.go(-1)">
+	</form>
+	
 	</body>
 
 </html>
