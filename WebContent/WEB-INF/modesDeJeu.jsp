@@ -13,7 +13,7 @@
 	
 	<form>
 		
-		<input type="button" value="Challenger" onclick=window.location.href="/CodeGame/options">
+		<input type="button" value="Challenger" onclick=window.location.href="/CodeGame/challenger">
 	
 	</form>
 	<ul>

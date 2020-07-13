@@ -37,6 +37,17 @@
   	<url-pattern>/modesdejeu</url-pattern>
   </servlet-mapping>
   
+  <!-- Mode challenger -->
+  <servlet>
+  	<servlet-name>Challenger</servlet-name>
+  	<servlet-class>servlets.Challenger</servlet-class>
+  </servlet>
+  
+  <servlet-mapping>
+  	<servlet-name>Challenger</servlet-name>
+  	<url-pattern>/challenger</url-pattern>
+  </servlet-mapping>
+  
   
   <!-- ===============Taglibs=============== -->
   
